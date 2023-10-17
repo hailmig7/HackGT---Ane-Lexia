@@ -42,8 +42,4 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-NoDer
 
 **No additional restrictions** — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
----
 
-This license allows others to use your work as long as it's for non-commercial purposes, they provide appropriate attribution, and they do not create derivative works. It's important to note that this type of license can limit the potential for broader adoption and contribution to your project.
-
-Please consult with a legal expert to ensure that the license you choose aligns with your intentions and is legally sound.
