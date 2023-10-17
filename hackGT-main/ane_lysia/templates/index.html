@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">ANE-LEXIA  </div>
+        <div class="nav-items">
+            <a href="/">Home</a>
+             <a href="http://127.0.0.1:5500/templates/about.html"  target="_blank">About</a>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="hero-container">
+            <div class="column-left">
+                <h1>Upload a PNG/JPEG File</h1>
+                <p>Get the entire text in the Dyslexic Font</p>
+                <form method="POST" action="/upload" enctype="multipart/form-data">
+                    <label for="file" class="blue-button">Choose File</label>
+                    <input type="file" name="file" id="file" accept=".jpg, .jpeg, .png">
+                    <input type="submit" value="Convert to PDF" class="blue-button">
+                </form>
+                <span id="file-name"></span>
+            </div>
+            
+        </div>
+    </section>
+    <script>
+        var fileInput = document.getElementById("file");
+        var fileNameDisplay = document.getElementById("file-name");
+        fileInput.addEventListener("change", function() {
+            if (fileInput.files.length > 0) {
+                fileNameDisplay.textContent = "Selected file: " + fileInput.files[0].name;
+            } else {
+                fileNameDisplay.textContent = "";
+            }
+        });
+    </script>
+</body>
+</html>
