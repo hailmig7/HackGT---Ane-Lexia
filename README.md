@@ -19,13 +19,6 @@ The lessons I learned from this hackathon were very valuable. Since it was my fi
 ## What's next for Ane-Lexia
 Ane-Lexia will have a lot of things for it. We plan to have our own ML model to detect handwritten text, we also want to create iOS and Android apps to increase accessibility. We want to make our app easy to use and widely available to people who need it. I believe this will largely benefit the students in the education system who have dyslexia.
 
-## Ane-Lexia License (Limited Use)
-
-Ane-Lexia is an open-source project designed to assist students with dyslexia. This project is licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives (CC BY-NC-ND) License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
-
-### Creative Commons Attribution-NonCommercial-NoDerivatives (CC BY-NC-ND) License
-
-This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. To view a copy of this license, visit [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 #### License Text
 
